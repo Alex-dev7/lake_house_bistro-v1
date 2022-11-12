@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,600;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="./gallery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Montserrat:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/852c13c6f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="shadow">
+         
+    <nav class="navbar">
+
+        <ul class="nav-left">
+           <li><a href="https://instagram.com/lakehousebistro_518?igshid=YzAyZWRIMzg="><i class="fa-brands fa-instagram-square fa-fade" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.4; "></i></a></li>
+           <li><a href="https://www.facebook.com/lakehousebistro518/"><i class="fa-brands fa-facebook-square fa-fade" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.4; "></i></a></li>
+           <li><a href="https://www.tiktok.com/t/ZTRMHUjT4/"><i class="fa-brands fa-tiktok fa-fade" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.4; "></i></a></li>
+        </ul>
+
+        <button
+        class="mobile-nav-toggle  "
+        aria-controls="nav-right"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Navigation</span>
+      </button>
+
+        <ul class="nav-right" data-visible="false" class="nav-right ">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#about">About Us</a></li>
+          <li><a href="../index.html#title">Menu</a></li>
+          <li><a href="./pages/gallery.html">Gallery</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul> 
+    </nav>
+
+    <div class="header">
+       
+        <a  data-rate="-1" data-direction="vertical" class="button scroll" href="https://www.opentable.com/r/lake-house-bistro-lake-george?corrid=76d4d4ed-d299-4053-9298-10b6b3ec1047&avt=eyJ2IjoyLCJtIjowLCJwIjowLCJzIjowLCJuIjowfQ&p=2&sd=2022-07-16T19:00:00&category=All">RESERVE</a> 
+            
+    </div>
+
+   </div>
+    <h1>Gallery</h1>
+    <div class="container">
+        
+        <div id="gallery"></div>
+    </div>
+    <div id="popup">
+        <img src="" alt="" id="selectedImage">
+    </div>
+    <footer>
+        <div class="inside-footer">
+           <img src="../images/Group 1.svg">
+        </div>
+    </footer>
+    <div class="copyright">
+        <h6>Copyright &copy 2022 Lake House Bistro </h6>
+      </div>
+
+    
+   
+   <script src="../scripts/script.js" async defer></script>
+    <script src="./gallery.js" defer></script>
+</body>
+</html>
