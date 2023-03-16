@@ -20,8 +20,6 @@ imageIndexes.forEach((i) => {
 
     })
 
-    
-
     gallery.appendChild(image);
 })
 
